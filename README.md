@@ -6,3 +6,9 @@ Due to the simple design pipeline, end-to-end (E2E) neural models for speech enh
 
 ## Model Architecture
 ![image](https://github.com/aleXiehta/WaveCRN/blob/master/images/model.png)
+The architecture of the proposed WaveCRN model. For local feature extraction, a 1D CNN maps the noisy audio \textbf{x} into a 2D feature map **F**. Bi-SRU then encodes **F** into an restricted  feature mask (RFM) **M**, which is element-wisely multiplied by **F** to generate a masked feature map **F'**. Finally, a transposed 1D convolution layer recovers the enhanced waveform **y** from **F'**.
+
+## Experimental Results
+### Results of Voice Bank + Demand Dataset
+<img src="https://github.com/aleXiehta/WaveCRN/blob/master/images/denoise.png" />
+
