@@ -9,8 +9,9 @@ The architecture of the proposed WaveCRN model. For local feature extraction, a 
 
 ## Experimental Results
 ### Results of Voice Bank + Demand Dataset
-<img src="https://github.com/aleXiehta/WaveCRN/blob/master/images/denoise.png" />
-<img src="https://github.com/aleXiehta/WaveCRN/blob/master/images/denoise_spec.png" />
+<!--<img src="https://github.com/aleXiehta/WaveCRN/blob/master/images/denoise.png" />-->
+<!--<img src="https://github.com/aleXiehta/WaveCRN/blob/master/images/denoise_spec.png" />-->
+<img src="https://github.com/aleXiehta/WaveCRN/blob/master/images/denoise_spec_metric.png" />
 
 ### Results of TIMIT for Compressed Speech Restoration
 <img src="https://github.com/aleXiehta/WaveCRN/blob/master/images/restoration.png" />
