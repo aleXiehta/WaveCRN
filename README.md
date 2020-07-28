@@ -16,5 +16,5 @@ The architecture of the proposed WaveCRN model. For local feature extraction, a 
 <img src="https://github.com/aleXiehta/WaveCRN/blob/master/images/restoration.png" />
 
 ## Requirements
-torch==1.4.0 <\br>
+torch==1.4.0<br/>
 sru==2.3.5
